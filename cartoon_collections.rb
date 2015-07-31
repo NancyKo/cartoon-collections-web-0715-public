@@ -6,8 +6,9 @@ def roll_call_dwarves(names)# code an argument here
 
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(calls)# code an argument here
   # Your code here
+  calls.collect {|n| n.capitalize + "!"} 
 end
 
 def long_planteer_calls# code an argument here
@@ -20,4 +21,3 @@ def find_the_cheese# code an argument here
 end
 
 
-# ["Doc", "Dopey", "Bashful", "Grumpy"]
